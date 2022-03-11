@@ -1,0 +1,41 @@
+p {
+    color: green;
+}
+p {
+    color: red;
+}
+ul{
+    list-style: none;
+}
+li:hover{
+    color: brown ;
+}
+ul li {
+padding: 10px;
+background-color: black;
+color: white;
+width: 50px;
+}
+.her:visited{
+    color: pink;
+}
+.him:visited{
+    color: blueviolet;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+}
+.box1{
+    width: 100px;
+    background-color: aqua;
+    border: 3px solid black;
+    margin-left: 100px;
+    padding: 5px;
+    box-sizing: border-box;
+    height: 200px;
+    overflow: scroll;
+}
